@@ -2,8 +2,9 @@
     {
         "name":"Girlstart Summer Camp",
         "organization": "Girlstart",
-        "dates": ["Throughout June and July"],
+        "dates": "Throughout June and July",
         "price": "$450",
+        "location": {"city": "Austin, ", "state": "TX"},
         "description": "Don’t miss our nationally-recognized STEM summer camps just for girls entering 4th-8th grades in 2024-2025. All Girlstart camps include a balance of hands-on STEM activities, relevant technology, collaborative team building, and informal camp fun!",
         "link": "https://girlstart.org/our-programs/summer-camp/",
         "img": "/girlstart.jpg"
@@ -12,8 +13,9 @@
     {
         "name": "GWC Summer Immersion Program",
         "organization": "Girls Who Code",
-        "dates": ["June 14-28"],
+        "dates": "June 14-28",
         "price": "FREE",
+        "location": {"city": "", "state": "Virtual"},
         "description": "High school students will attend live, virtual classes sponsored by industry-leading companies. Students will dive into the tech world and game design, covering beginner to intermediate CS concepts, the step-by-step design process, and the basics of UX design.",
         "link": "https://girlswhocode.com/programs/summer-immersion-program",
         "img": "/gwc.jpg"
@@ -21,8 +23,9 @@
     {
         "name": "Girls in Engineering",
         "organization": "UC Berkely",
-        "dates": ["June 24-28", "July 8-12"],
+        "dates": "June 24-28, July 8-12",
         "price": "$600",
+        "location": {"city": "Berkely, ", "state": "CA"},
         "description": "Explore STEM careers in small groups, learn with peers, meet mentors, and experience campus life. Ideal for students (6th to 8th grade) interested in engineering and science, seeking an introductory STEM camp. Scholarships available.",
         "link": "https://girlsinengineering.berkeley.edu/",
         "img": "/girlsinengineering.png"
@@ -30,8 +33,9 @@
     { 
         "name": "Girlgineering",
         "organization": "UT Arlington",
-        "dates": ["July 24-28"],
+        "dates": "July 24-28",
         "price": "$475",
+        "location": {"city": "Arlington, ", "state": "TX"},
         "description": "Explore engineering at UT Arlington's one-week day camps for middle school students (6th to 9th grade). Engage in presentations, team projects, and field trips to discover diverse engineering fields. Scholarships available.",
         "link": "https://www.uta.edu/academics/schools-colleges/engineering/outreach/summer-camps",
         "img": "/girlgineering.jpg"
