@@ -23,9 +23,11 @@ def get_data():
     return jsonify({'data': data})
 
 # Returning JSON data from a Flask endpoint
-@app.route('/api/sendData')
-def send_data():
-    return jsonify({'message': 'Data sent successfully'})
+@app.route('/api/getNews')
+def get_news():
+    with open('news.json') as f:
+        data = json.load(f)
+    return jsonify({'data': data})
 
 # Flask error handling
 @app.errorhandler(404)
