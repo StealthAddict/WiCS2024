@@ -1,4 +1,5 @@
 from flask import Flask, send_from_directory, jsonify
+import json
 import os
 
 app = Flask(__name__, static_folder='client/build')
@@ -7,16 +8,19 @@ app = Flask(__name__, static_folder='client/build')
 def serve():
     return send_from_directory(app.static_folder, 'index.html')
 
+
 # Flask API endpoint
 @app.route('/api/data')
 def api_data():
-    return {'data': 'Your data here'}
+    return {'data': "data"}
 
 # Flask API endpoint for getting data
 @app.route('/api/getData')
 def get_data():
     # Process request and return response
-    return jsonify({'data': 'Sample Data'})
+    with open('camps.json') as f:
+        data = json.load(f)
+    return jsonify({'data': data})
 
 # Returning JSON data from a Flask endpoint
 @app.route('/api/sendData')
